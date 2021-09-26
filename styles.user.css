@@ -11,7 +11,7 @@
 ==/UserStyle== */
 
 /** LinkedIn **/
-@-moz-document url-prefix("https://www.linkedin.com/feed/") {
+@-moz-document url("https://www.linkedin.com/feed/"), url-prefix("https://www.linkedin.com/feed/?"), url-prefix("https://www.linkedin.com/feed?") {
     #main {
         display: none !important;
     }
