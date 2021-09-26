@@ -10,6 +10,14 @@
 @preprocessor stylus
 ==/UserStyle== */
 
+/** LinkedIn **/
+@-moz-document url-prefix("https://www.linkedin.com/feed/") {
+    #main {
+        display: none !important;
+    }
+}
+
+/** Game8 **/
 @-moz-document domain("game8.co") {
     .l-3col > .l-3colSide {
         display: none !important;
