@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name ivanaugustobd's Improved Web
+@namespace https://github.com/ivanaugustobd/improved-web
+@homepageURL https://github.com/ivanaugustobd/improved-web
+@version 1.0.0
+@updateURL https://raw.githubusercontent.com/ivanaugustobd/improved-web/master/styles.user.css
+@description Usertyles compatible CSS to "improve" some websites I use
+@author ivanaugustobd
+@license MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("game8.co") {
+    .l-3col > .l-3colSide {
+        display: none !important;
+    }
+    
+    .l-3colMain__center.l-3colMain__center--shadow {
+        width: calc(100% - 250px) !important;
+    }
+    
+    .l-3colMain {
+        width: auto !important;
+    }
+}
