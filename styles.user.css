@@ -39,3 +39,11 @@
         display: none !important;
     }
 }
+
+/** EmojiPedia **/
+@-moz-document domain("emojipedia.org") {
+    .emoji-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
