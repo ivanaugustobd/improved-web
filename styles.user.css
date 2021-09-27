@@ -31,3 +31,11 @@
         width: auto !important;
     }
 }
+
+/** MangaLivre **/
+@-moz-document domain("mangalivre.net") {
+    .manga-top-ad,
+    .comments > .clear-fix {
+        display: none !important;
+    }
+}
