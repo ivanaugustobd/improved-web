@@ -47,3 +47,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+/** Outlook **/
+@-moz-document domain("outlook.live.com") {
+    ._1fti_QgAzqGWPGlqh_FSvI {
+        display: none !important;
+    }
+}
