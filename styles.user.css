@@ -2,7 +2,7 @@
 @name ivanaugustobd's Improved Web
 @namespace https://github.com/ivanaugustobd/improved-web
 @homepageURL https://github.com/ivanaugustobd/improved-web
-@version 1.5.0
+@version 1.6.0
 @updateURL https://raw.githubusercontent.com/ivanaugustobd/improved-web/master/styles.user.css
 @description Usertyles compatible CSS to "improve" some websites I use
 @author ivanaugustobd
@@ -54,4 +54,15 @@
     ._1fti_QgAzqGWPGlqh_FSvI {
         display: none !important;
     }
+}
+
+/** Gamer Guides **/
+@-moz-document domain("gamerguides.com"), domain("www.gamerguides.com") {
+    body {
+        padding-top: 0 !important;
+    }
+	
+	#navbar-wrap {
+		position: relative !important;
+	}
 }
