@@ -61,8 +61,15 @@
     body {
         padding-top: 0 !important;
     }
-	
-	#navbar-wrap {
-		position: relative !important;
-	}
+
+    #navbar-wrap {
+        position: relative !important;
+    }
+}
+
+/** MailTrack */
+@-moz-document domain("mail.google.com") {
+    div[id^="mt-micro-modal"] {
+        display: none !important;
+    }
 }
