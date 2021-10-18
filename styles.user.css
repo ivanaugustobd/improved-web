@@ -17,6 +17,16 @@
     }
 }
 
+@-moz-document domain("linkedin.com") {
+    aside.scaffold-layout__aside {
+        display: none !important;
+    }
+
+    .scaffold-layout--reflow .scaffold-layout__content--sidebar-main-aside {
+        grid-template-columns: minmax(0,5fr) minmax(0,12fr) !important;
+    }
+}
+
 /** Game8 **/
 @-moz-document domain("game8.co") {
     .l-3col > .l-3colSide {
