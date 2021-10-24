@@ -17,6 +17,7 @@
     }
 }
 
+
 @-moz-document domain("linkedin.com") {
     aside.scaffold-layout__aside {
         display: none !important;
@@ -77,9 +78,13 @@
     }
 }
 
-/** MailTrack */
-@-moz-document domain("mail.google.com") {
-    div[id^="mt-micro-modal"] {
+/** GameFAQs **/
+@-moz-document domain("gamefaqs.gamespot.com") {
+    #contrib_rec {
         display: none !important;
+    }
+    
+    #faq_header_wrap {
+        height: auto !important;
     }
 }
