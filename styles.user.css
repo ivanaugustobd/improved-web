@@ -11,20 +11,23 @@
 ==/UserStyle== */
 
 /** LinkedIn **/
-@-moz-document url("https://www.linkedin.com/feed/"), url-prefix("https://www.linkedin.com/feed/?"), url-prefix("https://www.linkedin.com/feed?") {
-    #main {
-        display: none !important;
-    }
-}
-
-
 @-moz-document domain("linkedin.com") {
     aside.scaffold-layout__aside {
         display: none !important;
     }
+    
+    .scaffold-layout__sidebar {
+        display: none !important; 
+    }
 
     .scaffold-layout--reflow .scaffold-layout__content--sidebar-main-aside {
-        grid-template-columns: minmax(0,5fr) minmax(0,12fr) !important;
+        display: block !important;
+        margin: 30px auto !important;
+        max-width: 800px;
+    }
+
+    .artdeco-notification-badge .notification-badge, .artdeco-notification-badge .notification-badge.notification-badge--border {
+        background-color: var(--color-icon-nav) !important;
     }
 }
 
@@ -78,13 +81,9 @@
     }
 }
 
-/** GameFAQs **/
-@-moz-document domain("gamefaqs.gamespot.com") {
-    #contrib_rec {
+/** MailTrack */
+@-moz-document domain("mail.google.com") {
+    div[id^="mt-micro-modal"] {
         display: none !important;
-    }
-    
-    #faq_header_wrap {
-        height: auto !important;
     }
 }
