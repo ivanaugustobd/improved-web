@@ -11,13 +11,15 @@
 ==/UserStyle== */
 
 /** LinkedIn **/
-@-moz-document domain("linkedin.com") {
-    aside.scaffold-layout__aside {
-        display: none !important;
-    }
-    
+@-moz-document url-prefix("https://www.linkedin.com/feed/") {
     .scaffold-layout__sidebar {
         display: none !important; 
+    }
+}
+
+@-moz-document domain("linkedin.com") {
+    .pv-content__right-rail .pv-deferred-area.ember-view {
+        display: none !important;
     }
 
     .scaffold-layout--reflow .scaffold-layout__content--sidebar-main-aside {
