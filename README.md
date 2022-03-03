@@ -1,5 +1,5 @@
 # Improved Web
-Usertyles compatible CSS to "improve" some websites I use. So it's too personal to be really usable be anyone else, but can be a reference for you to build your own :)
+Usertyles compatible CSS to "improve" some websites I use. It's too personal to be really usable by anyone else, but you can use it as a reference for building your own 😉
 
 ## Requirements
 Stylus extension for your browser: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Chrome-like](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
