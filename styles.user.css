@@ -89,3 +89,15 @@
         display: none !important;
     }
 }
+
+/** Fandom wikis */
+@-moz-document domain("fandom.com") {
+    .main-container > .resizable-container {
+        max-width: initial !important;
+        width: 95% !important;
+    }
+
+    .page__right-rail {
+        display: none !important;
+    }
+}
