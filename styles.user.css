@@ -2,7 +2,7 @@
 @name ivanaugustobd's Improved Web
 @namespace https://github.com/ivanaugustobd/improved-web
 @homepageURL https://github.com/ivanaugustobd/improved-web
-@version 1.8.0
+@version 1.8.1
 @updateURL https://raw.githubusercontent.com/ivanaugustobd/improved-web/master/styles.user.css
 @description Usertyles compatible CSS to "improve" some websites I use
 @author ivanaugustobd
@@ -97,7 +97,8 @@
         width: 95% !important;
     }
 
-    .page__right-rail {
+    .page__right-rail,
+    #content > div[itemprop="video"] {
         display: none !important;
     }
 }
